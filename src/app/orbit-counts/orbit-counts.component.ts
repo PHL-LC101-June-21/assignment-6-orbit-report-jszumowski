@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { count } from 'console';
 import { Satellite } from '../satellite';
 
 @Component({
@@ -26,6 +27,5 @@ export class OrbitCountsComponent implements OnInit {
 	}
 	return count;
  }
-
-
+ 
 }
