@@ -7,7 +7,7 @@
 	background-color: #da8a8a;
 }
 
-.alternate-row{
+tr:nth-child(even){
 	background-color: cadetblue;
 }
 

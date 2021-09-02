@@ -46,7 +46,7 @@ export class AppComponent {
 			if (name.indexOf(searchTerm) >= 0) {
 				matchingSatellites.push(this.sourceList[i]);
 			} else if (type.indexOf(searchTerm) >= 0) {
-				matchingSatellites.push(this.sourceList[i]);
+				matchingSatellites.push(this.sourceList[i])
 			}
 		}
 		// assign this.displayList to be the array of matching satellites
